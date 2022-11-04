@@ -1,0 +1,28 @@
+main{
+    width: 80%;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+.names{
+    min-height: 100px;
+    width: 20%;
+    background-color:aquamarine;
+}
+.info{
+    min-height: 100px;
+    width: 80%;
+    background-color:bisque;
+   
+}
+.nameDiv{
+    border: 1px solid black;
+    height: 18%;
+}
+.nameDiv:hover{
+    outline: dotted red;
+    background: gold; 
+}
+.nameDiv:visited{
+    background: green;
+}
